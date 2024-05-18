@@ -1,0 +1,60 @@
+<html>
+ <head> 
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+  <title>WebCat</title> 
+  <script src="js/wc-3.0.6.min.js"></script> 
+  <script src="js/jq.js"></script> 
+  <style>
+     input{
+       width:200px;
+      height:40px;
+      border-radius:5rem;
+      background-color:white;
+      color:red;
+      font-size:1rem;
+      box-shadow:0 8px 28px white;
+       }
+     #go{
+       margin-top:20px;
+       }
+    
+     center{
+       margin-top:0px
+       }
+     body{
+    background-color:black;
+      }
+  
+     
+  </style> 
+ </head> 
+ <body id="v1"> 
+  <div id="v2" class="box"> 
+   <video id="v3" src="phs/btmr.mp4" autoplay="true" loop="true" width="350" height="400"></video> 
+  </div> 
+  <center id="v4"> 
+   <a id="sb" href="https://www.douyin.com/user/MS4wLjABAAAAjWzKvRHQ4HJ3Zf13t-k9WEZem18lsowCjZYaqFY7kf0">带我去悲天悯人的抖音</a> 
+   <br id="v5"> 
+   <input id="cnm" type="text" placeholder="悲天悯人真名叫什么"> 
+   <br id="v6"> 
+   <input id="go" onclick="go();" type="button" value="GO!😰"> 
+  </center> 
+  <script>
+    function go(){
+      let cnm = document.getElementById("cnm").value;
+      if(cnm == "带我去悲天悯人的抖音"){
+         alert("走了呀");
+      }
+    if(cnm == "悲天悯人真名叫什么"){
+      alert("钱宇航");
+    }
+    else if(cnm == "钱宇航的爸爸"){
+      alert("解明昊😰");
+    }
+    else{
+      alert("无效命令😰");
+    }
+    }
+  </script> } }  
+ </body>
+</html>
